@@ -1,5 +1,14 @@
 {
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
   "devDependencies": {
     "cssnano": "^4.1.10"
-  }
+  },
+  "name": "Navigation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:debbipan/Navigation.git",
+  "author": "DebbiePan<1770554944@qq.com>",
+  "license": "MIT"
 }
